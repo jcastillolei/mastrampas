@@ -1,0 +1,611 @@
+{
+    "menu-item#vestuario": {
+        "props": {
+          "id": "menu-item-custom-sale",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "VESTUARIO",
+            "text": "VESTUARIO"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#vestuario"
+        ]
+      },
+      "vtex.menu@2.x:submenu#vestuario": {
+        "props": {
+          "width": "100%"
+        },
+        "children": [
+          "flex-layout.row#menu-vestuario"
+        ]
+      },
+      "flex-layout.row#menu-vestuario": {
+        "children": [
+          "flex-layout.col#menu-vestuario-1",
+          "flex-layout.col#menu-vestuario-2",
+          "flex-layout.col#menu-vestuario-3",
+          "flex-layout.col#menu-vestuario-4",
+          "flex-layout.col#menu-vestuario-5"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-1": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-2": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario2"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-3": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario3"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-4": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario4"
+        ]
+      },
+      "flex-layout.col#menu-vestuario-5": {
+        "children": [
+          "vtex.menu@2.x:menu#vestuario3"
+        ]
+      },
+      "vtex.menu@2.x:menu#vestuario": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#bañador",
+          "menu-item#bikini",
+          "menu-item#tankini",
+          "menu-item#trikini",
+          "menu-item#faldon",
+          "menu-item#trajebaño"
+        ]
+      },
+      "menu-item#bañador": {
+        "props": {
+          "id": "menu-item-bañador-titulo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "BAÑADOR",
+            "text": "BAÑADOR"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#bikini": {
+        "props": {
+          "id": "menu-item-bikini",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Bikini",
+            "text": "Bikini"
+          }
+        }
+      },
+      "menu-item#tankini": {
+        "props": {
+          "id": "menu-item-tratamientosvestuario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Tankini",
+            "text": "Tankini"
+          }
+        }
+      },
+      "menu-item#trikini": {
+        "props": {
+          "id": "menu-item-aceitesvestuario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Trikini",
+            "text": "Trikini"
+          }
+        }
+      },
+      "menu-item#faldon": {
+        "props": {
+          "id": "menu-item-accesoriosvestuario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Faldon",
+            "text": "Faldon"
+          }
+        }
+      },
+      "menu-item#trajebaño": {
+        "props": {
+          "id": "menu-item-packsvestuario",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Traje baño",
+            "text": "Traje baño"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario2": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#abrigosychaquetas",
+          "menu-item#abrigo",
+          "menu-item#bolero",
+          "menu-item#blazer",
+          "menu-item#chaqueta",
+          "menu-item#trench",
+          "menu-item#casaca",
+          "menu-item#chaqueton",
+          "menu-item#impermeable"
+        ]
+      },
+      "menu-item#abrigosychaquetas": {
+        "props": {
+          "id": "menu-item-tipos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "ABRIGOS Y CHAQUETAS",
+            "text": "ABRIGOS Y CHAQUETAS"
+          },
+          "blockClass": "titulo-item-menu"
+        }
+      },
+      "menu-item#abrigo": {
+        "props": {
+          "id": "menu-item-seco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Abrigo",
+            "text": "Abrigo"
+          }
+        }
+      },
+      "menu-item#bolero": {
+        "props": {
+          "id": "menu-item-danado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Bolero",
+            "text": "Bolero"
+          }
+        }
+      },
+      "menu-item#blazer": {
+        "props": {
+          "id": "menu-item-tinturado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Blazer",
+            "text": "Blazer"
+          }
+        }
+      },
+      "menu-item#chaqueta": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Chaqueta",
+            "text": "Chaqueta"
+          }
+        }
+      },
+      "menu-item#trench": {
+        "props": {
+          "id": "menu-item-rizo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Trench",
+            "text": "Trench"
+          }
+        }
+      },
+      "menu-item#casaca": {
+        "props": {
+          "id": "menu-item-graso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Casaca / Parka",
+            "text": "Casaca / Parka"
+          }
+        }
+      },
+      "menu-item#chaqueton": {
+        "props": {
+          "id": "menu-item-todotipo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Chaquetón",
+            "text": "Chaquetón"
+          }
+        }
+      },
+      "menu-item#impermeable": {
+        "props": {
+          "id": "menu-item-fino",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Impermeable",
+            "text": "Impermeable"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario3": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#blusasypoleras",
+          "menu-item#blusa",
+          "menu-item#bluson",
+          "menu-item#peto",
+          "menu-item#tunica",
+          "menu-item#polera"
+        ]
+      },
+      "menu-item#blusasypoleras": {
+        "props": {
+          "id": "menu-item-tipos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "BLUSAS Y POLERAS",
+            "text": "BLUSAS Y POLERAS"
+          }
+        }
+      },
+      "menu-item#blusa": {
+        "props": {
+          "id": "menu-item-seco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Blusa",
+            "text": "Blusa"
+          }
+        }
+      },
+      "menu-item#bluson": {
+        "props": {
+          "id": "menu-item-danado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Blusón",
+            "text": "Blusón"
+          }
+        }
+      },
+      "menu-item#peto": {
+        "props": {
+          "id": "menu-item-tinturado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Peto",
+            "text": "Peto"
+          }
+        }
+      },
+      "menu-item#tunica": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Túnica",
+            "text": "Túnica / Tapado"
+          }
+        }
+      },
+      "menu-item#polera": {
+        "props": {
+          "id": "menu-item-rizo",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Polera",
+            "text": "Polera"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario4": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#sweaterychaleco",
+          "menu-item#sweater",
+          "menu-item#chaleco",
+          "menu-item#twin",
+          "menu-item#conjunto"
+        ]
+      },
+      "menu-item#sweaterychaleco": {
+        "props": {
+          "id": "menu-item-tipos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "SWEATER Y CHALECO",
+            "text": "SWEATER Y CHALECO"
+          }
+        }
+      },
+      "menu-item#sweater": {
+        "props": {
+          "id": "menu-item-seco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Sweater",
+            "text": "Sweater"
+          }
+        }
+      },
+      "menu-item#chaleco": {
+        "props": {
+          "id": "menu-item-danado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Chaleco",
+            "text": "Chaleco"
+          }
+        }
+      },
+      "menu-item#twin": {
+        "props": {
+          "id": "menu-item-tinturado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Twin Set",
+            "text": "Twin Set"
+          }
+        }
+      },
+      "menu-item#conjunto": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Conjunto",
+            "text": "Conjunto"
+          }
+        }
+      },
+      "vtex.menu@2.x:menu#vestuario5": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#vestidosyconjuntos",
+          "menu-item#vestidos",
+          "menu-item#conjuntodefalda",
+          "menu-item#conjuntodevestido",
+          "menu-item#conjuntodepantalon",
+          "menu-item#enterito"
+        ]
+      },
+      "menu-item#vestidosyconjuntos": {
+        "props": {
+          "id": "menu-item-tipos",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": true,
+            "tagTitle": "VESTIDOS Y CONJUNTOS",
+            "text": "VESTIDOS Y CONJUNTOS"
+          }
+        }
+      },
+      "menu-item#vestidos": {
+        "props": {
+          "id": "menu-item-seco",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          }
+        }
+      },
+      "menu-item#conjuntodefalda": {
+        "props": {
+          "id": "menu-item-danado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Conjunto de falda",
+            "text": "Conjunto de falda"
+          }
+        }
+      },
+      "menu-item#conjuntodevestido": {
+        "props": {
+          "id": "menu-item-tinturado",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Conjunto de vestido",
+            "text": "Conjunto de vestido"
+          }
+        }
+      },
+      "menu-item#conjuntodepantalon": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Conjunto de pantalón",
+            "text": "Conjunto de pantalón"
+          }
+        }
+      },
+      "menu-item#enterito": {
+        "props": {
+          "id": "menu-item-liso",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/faq",
+            "noFollow": true,
+            "tagTitle": "Enterito",
+            "text": "Enterito"
+          }
+        }
+      }
+}
