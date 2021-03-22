@@ -65,7 +65,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "50%",
       "rowGap": 0
     }
   },
@@ -84,7 +84,9 @@
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "width": "50%",
+      "rowGap": 0,
+      "blockClass": "columna-derecha"
     },
     "children": [
       "flex-layout.row#product-name",
@@ -104,11 +106,17 @@
 
   "flex-layout.row#product-name": {
     "props": {
-      "marginBottom": 1
+      "marginBottom": 1,
+      "blockClass": "producto-nombre"
     },
     "children": ["vtex.store-components:product-name"]
   },
-
+  "vtex.store-components:product-name": {
+    "props": {
+      "showSku": true,
+      "showBrandName": true
+    }
+  },
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,

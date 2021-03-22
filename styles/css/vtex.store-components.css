@@ -127,11 +127,16 @@
 }
 
 .productNameContainer {
-  color: #3f3f40;
+  color: #3a3a9c;
   font-weight: bold;
   font-size: 30px;
 }
 
 .autoCompleteOuterContainer{
   background-color: #e1388c;
+}
+
+.productNameContainer
+.productNameContainer--quickview{
+  width: 20%;
 }
